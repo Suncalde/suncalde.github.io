@@ -1,5 +1,4 @@
 /* || General setup */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ body {
 }
 
 /* || typography */
-
 h1, h2, h3 {
   font-family: 'Arial', sans-serif;
   color: #2a2a2a;
@@ -48,7 +46,6 @@ p, li {
 }
 
 /* || header layout */
-
 header {
   margin-bottom: 10px;
   display: flex;
@@ -60,7 +57,7 @@ body {
   padding: 1%;
 }
 
- main, header, nav, footer, section {
+main, header, nav, footer, section {
   background-color: white;
   padding: 1%;
 }
@@ -111,11 +108,10 @@ nav a, nav span {
 }
 
 a:hover {
-background-color: #fff0f5;
+  background-color: #fff0f5;
 }
 
 /* || main layout */
-
 main {
   display: flex;
 }
@@ -150,4 +146,13 @@ img {
   object-fit: cover;
   float: left;
   padding: 0 20px 20px 0;
+}
+
+div {
+  height: 90px;
+  width: 90px;
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
