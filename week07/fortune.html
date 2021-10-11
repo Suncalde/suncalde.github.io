@@ -1,19 +1,39 @@
 <!dOCTYPE html>
 <html>
-   <head>
-     <title>Your Fourtune</title>
-    </head>
-  
-      <body>
-       <div class= "fortune">
-         <h1> This is Your Fortune</h1>
-            <script src="future.js">
-            </script>
-        </div>
-        
-        <div class = "button">
-           <button onClick="window.location.href=window.location.href">Refresh Page</button>
-        </div> 
-      </body>
-  
-    </html>
+
+<head>
+  <title>Your Fourtune</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Eater&family=Oswald&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <div class="top-container">
+    <h1> This is Your Fortune</h1>
+  </div>
+
+
+      <div class="fortune">
+          <div class="middle">
+              <div class="witch">
+                <img class="fortune-image" src="images/cryst.png" alt="crystal">
+              </div>
+
+
+              <div class="future">
+                <h2>
+                  <script src="future.js"></script>
+                </h2>
+                <button class="button" onClick="window.location.href=window.location.href">What's Your Fourtune?</button>
+               </div>
+          </div>
+      </div>
+
+</body>
+
+</html>
