@@ -1,7 +1,7 @@
 var job = ["Student","Softwear Engineer","Chef","Trophery Wife"];
 var city = ["Dallas","Oaxaca","Berlin","Seattle"];
 var spouse = ["Wasim","Ryan Reynolds","Gong Yoo","Kit Harington"];
-var numKids = [0, 3, 4, 6, 12];
+var numKids = [0, 3, 6, 12];
 
 var xx = Math.floor(Math.random() * 4)
 
